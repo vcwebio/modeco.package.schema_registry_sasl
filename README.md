@@ -1,6 +1,6 @@
 # `package.kafka_rest` - ModEco
 
-Modeco Confluent Schema Registry to cloud package.
+Modeco Confluent Schema Registry package, with SASL authentication.
 See `conteco.docs.overview` for more information on the ModEco ecosystem.
 
 ## Structure

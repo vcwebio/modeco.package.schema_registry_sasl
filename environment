@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="package.schema_registry_tocloud - ModEco"
-export CONTECO_DESCRIPTION="Modeco Confluent Schema Registry to cloud module package."
+export CONTECO_LABEL="package.schema_registry_sasl - ModEco"
+export CONTECO_DESCRIPTION="Modeco Confluent Schema Registry package, with SASL authentication."
 
 export CONTECO_TYPE="package"
-export CONTECO_NAME="schema_registry_tocloud"
+export CONTECO_NAME="schema_registry_sasl"
 export CONTECO_TAG="5.4.0"
 export CONTECO_TAG_TYPE="incremental"
 
