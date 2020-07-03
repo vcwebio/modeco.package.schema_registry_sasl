@@ -12,7 +12,7 @@ services:
     networks: [modeco_overlay, package_overlay]
     deploy:
       mode: replicated
-      replicas: ${SCHEMA_REGISTRY_SASL_EXT_REST_DEPLOY_REPLICAS}
+      ${SCHEMA_REGISTRY_SASL_EXT_REST_DEPLOY_MODE_REPLICATED_REPLICAS}
       resources:
         limits:
           cpus: '${SCHEMA_REGISTRY_SASL_EXT_REST_DEPLOY_RESOURCES_LIMITS_CPUS}'
