@@ -6,7 +6,7 @@ export CONTECO_DESCRIPTION="Modeco Confluent Schema Registry package, with SASL 
 export CONTECO_TYPE="package"
 export CONTECO_NAME="schema_registry_sasl"
 export CONTECO_TAG="5.4.0"
-export CONTECO_TAG_TYPE="incremental"
+
 
 export CONTECO_BASE="image.wrapper"
 export CONTECO_BUILD="modeco"
