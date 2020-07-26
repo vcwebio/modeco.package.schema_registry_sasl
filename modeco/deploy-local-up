@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 
-prefix="package_$2"
+prefix="package_schema_registry_sasl_$2"
 
